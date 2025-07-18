@@ -103,10 +103,10 @@ h1{
     margin: 16px;
     text-align: right;
     cursor: pointer;
+    transition: 0.2s;
 }
 .portfolio-piece-1:hover{
     transform: scale(112%);
-    transition-duration: 0.2s;
     transition-timing-function: ease-out;
 }
 .portfolio-image{
