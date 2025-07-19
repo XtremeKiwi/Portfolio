@@ -33,11 +33,12 @@ h1{
     overflow: hidden;
 }
 .marquee-info{
-    background-color: var(--light-grey);
-    padding: 1rem;
+    background-color: var(--off-white);
+    padding: 1rem 0;
     border-bottom-style: solid;
     border-width: 2px;
     border-color: var(--white);
+    color: var(--black-grey)
 }
 .header{
     text-align: center;
@@ -261,10 +262,11 @@ h1{
 
 /* footer */
 .footer{
+
     display: flex;
     justify-content: space-evenly;
     background-color: var(--dark-purple);
-    padding: 4rem 8rem;
+    padding: 4rem 0;
 }
 footer h1, h2{
     font-weight: normal;
