@@ -26,9 +26,9 @@ h1{
 
 /* first part of portfolio */
 .portfolio-container{
-    width: 80%;
+    width: 100%;
     height: auto;
-    background-color: var(--dark-purple);
+    background-color: var(--black-grey);
     margin:auto;
     overflow: hidden;
 }
@@ -42,13 +42,14 @@ h1{
 }
 .header{
     text-align: center;
-    width: 264px;
+    width: 100%;
     margin: auto;
     height: auto;
 }
 .header h1{
     padding-top: 4rem;
     font-weight: normal;
+    color: var(--white)
 }
 /*.pillar{*/
 /*    width: 264px;*/
@@ -66,7 +67,6 @@ h1{
             "area3 area4";
     width: 100%;
     height: 100%;
-
     justify-content: center;
 }
 .UI-webdev{
@@ -75,6 +75,7 @@ h1{
 .UI-webdev h3{
     position: relative;
     left: 16px;
+    color: var(--white);
 }
 .threedee{
     grid-area: area2;
@@ -83,6 +84,7 @@ h1{
     position: relative;
     right: 16px;
     text-align: right;
+    color: var(--white);
 }
 .graphic-design{
     grid-area: area3;
@@ -90,6 +92,7 @@ h1{
 .graphic-design h3{
     position: relative;
     left: 16px;
+    color: var(--white);
 }
 .concept-art{
     grid-area: area4;
@@ -98,11 +101,12 @@ h1{
     position: relative;
     right: 16px;
     text-align: right;
+    color: var(--white);
 }
 .portfolio-piece-1{
-    width: 396px;
+    width: 360px;
     height: 128px;
-    background-color: var(--dark-grey);
+    background-color: black;
     border-style: solid;
     border-width: 2px;
     border-radius: 4px;
@@ -152,7 +156,7 @@ h1{
     margin: auto;
 }
 .about-me-intro{
-    width: 60%;
+    width: 640px;
     height: auto;
     background-color: var(--light-grey);
     margin:  4rem auto 0 auto;
@@ -167,7 +171,7 @@ h1{
 
 .about-me-skills{
     margin:  0 auto 4rem auto;
-    width: 80%;
+    width: 900px;
     height: auto;
     background-color: var(--black-grey);
     border-radius: 4px;
@@ -176,7 +180,7 @@ h1{
     border-color: var(--white);
     display: flex;
     justify-content: stretch;
-    gap: 4rem;
+    gap: 2rem;
     padding: 4rem 2rem;
 }
 .about-me-image{
@@ -191,7 +195,7 @@ h1{
 }
 .about-me-skill-example{
     line-height: 2rem;
-    width: 100%
+    width: 100%;
 }
 .about-me-skill-example h3{
     padding-bottom: 1rem;
@@ -202,7 +206,7 @@ h1{
 .cv-container{
     width: 80%;
     height: 100%;
-    background-color: var(--dark-purple);
+    background-color: var(--black-grey);
     margin: auto;
 }
 .cv-wrapper{
@@ -265,7 +269,7 @@ h1{
 
     display: flex;
     justify-content: space-evenly;
-    background-color: var(--dark-purple);
+    background-color: var(--black-grey);
     padding: 4rem 0;
 }
 footer h1, h2{

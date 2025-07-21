@@ -1,3 +1,45 @@
-@media screen and (max-width: 1366px) {
-    /* create grid forabout me section */
+@media screen and (min-width: 1366px) {
+    /* portfolio piece top */
+    .portfolio-piece-1{
+        width: 480px;
+    }
+}
+/* about me */
+
+
+
+
+@media screen and (max-width: 980px ){
+    /* portfolio piece top */
+    .portfolio-piece-1{
+    width: 360px;
+}
+    .portfolio-piece-container{
+        grid-template-areas: none;
+    }
+
+    /* about me */
+    .about-me-intro{
+        width: 60%;
+        padding: 2rem;
+        font-size: 0.8rem;
+    }
+    .about-me-skills{
+        width: 80%;
+    }
+    .about-me-skill-example{
+        font-size: 0.8rem;
+    }
+
+}
+
+
+
+@media screen and (max-width: 380px){
+    /* portfolio piece top */
+
+    .portfolio-piece-1{
+        width: 240px;
+        font-size: 0.8rem;
+    }
 }
