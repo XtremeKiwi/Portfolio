@@ -200,6 +200,9 @@ h1{
 .about-me-skill-example h3{
     padding-bottom: 1rem;
 }
+.about-me-skill-example ul{
+    list-style: circle;
+}
 
 /* cv */
 
@@ -262,6 +265,7 @@ h1{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 2rem;
+    list-style: circle;
 }
 
 /* footer */
