@@ -34,8 +34,22 @@
     /* facts */
     .fact-list-items{
         grid-template-columns: 1fr 1fr;
+        font-size: 0.8rem;
+    }
+    .fact-wrapper{
+        width: 80%;
     }
 
+    /* cv*/
+    .cv-content{
+        width: 90%;
+    }
+    .cv-wrapper{
+        width:100%;
+    }
+    .cv-wrapper h2{
+        padding: 0 5%
+    }
 }
 
 
