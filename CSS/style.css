@@ -211,7 +211,7 @@ h3{
 /* cv and facts*/
 
 .cv-container{
-    width: 60%;
+    width: 80%;
     height: 100%;
     background-color: var(--black-grey);
     margin: auto;
@@ -219,16 +219,15 @@ h3{
 }
 .cv-wrapper{
     margin: auto;
-    padding: 4rem 0;
-    width: 90%;
+    padding: 2rem 0;
     height: auto;
 }
 .cv-wrapper h2{
     padding-bottom: 1rem;
-    padding-left: 0;
+    color: var(--white)
 }
 .cv-content{
-    width: 600px;
+    width: 720px;
     height: 760px;
     background-color: var(--light-grey);
     margin:  0 auto 2rem auto;
@@ -253,12 +252,12 @@ h3{
     grid-area: fact;
 }
 .fact-wrapper{
-    margin: auto;
     width: 380px;
-    padding: 1rem 0 0 0;
+    padding: 2rem 0 0 0;
 }
 .fact-wrapper h2{
     padding-bottom: 1rem;
+    color: var(--white)
 }
 .fact-list{
     width: 80%;

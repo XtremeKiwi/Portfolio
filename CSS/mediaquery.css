@@ -8,12 +8,6 @@
 /* about me */
 
 /* cv and fact */
-.cv-content{
-    width: 600px
-}
-.cv-wrapper{
-    padding: 1rem;
-}
 
 @media screen and (max-width: 1366px) {
     /* cv and fact */
@@ -29,6 +23,7 @@
     }
     .fact-wrapper{
         width: 90%;
+        margin: auto;
     }
 }
 
@@ -77,9 +72,6 @@
     }
     .cv-wrapper{
         width:100%;
-    }
-    .cv-wrapper h2{
-        padding: 0 5%
     }
 }
 
