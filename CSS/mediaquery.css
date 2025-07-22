@@ -3,6 +3,7 @@
     .portfolio-piece-1{
         width: 480px;
     }
+
 }
 /* about me */
 
@@ -10,21 +11,27 @@
 .cv-content{
     width: 600px
 }
+.cv-wrapper{
+    padding: 1rem;
+}
 
 @media screen and (max-width: 1366px) {
     /* cv and fact */
     .cv-content{
         width: 100%;
+        margin-bottom: 0;
     }
     .cv-and-fact-container{
         grid-template-areas:
         "cv"
         "fact";
+        width: auto;
     }
     .fact-wrapper{
         width: 90%;
     }
 }
+
 @media screen and (max-width: 980px ){
     /* portfolio piece top */
     .portfolio-piece-1{
@@ -47,9 +54,6 @@
         font-size: 0.8rem;
     }
     .fact-container{
-        border-top-style: solid;
-        border-color: var(--white);
-        border-width: 2px;
         width: 100%
     }
 
