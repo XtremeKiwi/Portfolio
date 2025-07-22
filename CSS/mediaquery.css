@@ -6,9 +6,25 @@
 }
 /* about me */
 
+/* cv and fact */
+.cv-content{
+    width: 600px
+}
 
-
-
+@media screen and (max-width: 1366px) {
+    /* cv and fact */
+    .cv-content{
+        width: 100%;
+    }
+    .cv-and-fact-container{
+        grid-template-areas:
+        "cv"
+        "fact";
+    }
+    .fact-wrapper{
+        width: 90%;
+    }
+}
 @media screen and (max-width: 980px ){
     /* portfolio piece top */
     .portfolio-piece-1{
@@ -30,19 +46,30 @@
     .about-me-skill-example{
         font-size: 0.8rem;
     }
+    .fact-container{
+        border-top-style: solid;
+        border-color: var(--white);
+        border-width: 2px;
+        width: 100%
+    }
 
-    /* facts */
+    /* cv and facts */
     .fact-list-items{
         grid-template-columns: 1fr 1fr;
         font-size: 0.8rem;
     }
     .fact-wrapper{
-        width: 80%;
+        width: 90%;
+    }
+    /* cv and facts */
+    .cv-and-fact-container{
+        display: flex;
+        flex-direction: column;
     }
 
     /* cv*/
     .cv-content{
-        width: 90%;
+        width: 100%;
     }
     .cv-wrapper{
         width:100%;

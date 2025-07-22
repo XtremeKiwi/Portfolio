@@ -208,18 +208,19 @@ h3{
     list-style: circle;
 }
 
-/* cv */
+/* cv and facts*/
 
 .cv-container{
-    width: 100%;
+    width: 60%;
     height: 100%;
     background-color: var(--black-grey);
     margin: auto;
+    grid-area: cv;
 }
 .cv-wrapper{
     margin: auto;
-    padding: 8rem 0;
-    width: 900px;
+    padding: 4rem 0;
+    width: 90%;
     height: auto;
 }
 .cv-wrapper h2{
@@ -227,7 +228,7 @@ h3{
     padding-left: 0;
 }
 .cv-content{
-    width: 900px;
+    width: 600px;
     height: 760px;
     background-color: var(--light-grey);
     margin:  0 auto 2rem auto;
@@ -236,20 +237,23 @@ h3{
     border-style: solid;
     border-color: var(--white);
 }
- /* facts */
+.cv-and-fact-container{
+    display: grid;
+    grid-template-areas:
+            "cv fact";
+}
 
+ /* facts */
 .fact-container{
-    background-color: var(--dark-grey);
+    background-color: var(--black-grey);
     width: 100%;
     height: auto;
-    border-style: solid none;
-    border-color: var(--white);
-    border-width: 2px;
+    grid-area: fact;
 }
 .fact-wrapper{
     margin: auto;
-    width: 960px;
-    padding: 4rem 0;
+    width: 380px;
+    padding: 4rem 0 0 0;
 }
 .fact-wrapper h2{
     padding-bottom: 1rem;
@@ -268,7 +272,7 @@ h3{
 .fact-list-items{
     line-height: 2rem;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 2rem;
     list-style: circle;
 }
@@ -276,6 +280,12 @@ h3{
 /* footer */
 .footer{
 
+
+    border-top-style: solid;
+    border-width: 2px;
+    border-color: var(--white)
+}
+.footer-text{
     display: flex;
     justify-content: space-evenly;
     background-color: var(--black-grey);
