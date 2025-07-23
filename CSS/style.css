@@ -42,18 +42,45 @@ h3{
     border-bottom-style: solid;
     border-width: 2px;
     border-color: var(--white);
-    color: var(--black-grey)
+    color: var(--black-grey);
+    width: 260px;
+    border-radius: 1rem;
+
 }
 .header{
     text-align: center;
     width: 100%;
     margin: auto;
     height: auto;
+    display: block;
+    ;
 }
 .header h1{
     padding-top: 4rem;
     font-weight: normal;
     color: var(--white)
+}
+.contact-info{
+    width:260px;
+    margin: auto;
+}
+.contact-info:hover .contact-tooltip{
+    visibility: visible;
+}
+.contact-tooltip{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-inline: auto;
+    width: fit-content;
+    left: 0;
+    right: 0;
+    padding: 8px;
+    border-style: none solid solid solid;
+    border-width: 2px;
+    border-radius: 0 0 8px 8px;
+    visibility: hidden;
+    gaP: 8px;
 }
 /*.pillar{*/
 /*    width: 264px;*/
