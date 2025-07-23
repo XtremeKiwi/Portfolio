@@ -1,6 +1,7 @@
 :root{
     --dark-purple: #190E1C;
     --light-purple: #C069D6;
+    --yellow: #17B890;
 
     --white: #FFFFFF;
     --off-white: #D9D9D9;
@@ -40,12 +41,12 @@ h3{
 
 }
 .marquee-info{
-    background-color: var(--off-white);
+    background-image: radial-gradient(var(--yellow) 30%, var(--light-purple));
     padding: 1rem 0;
-    border-bottom-style: solid;
+    border-style: solid;
     border-width: 2px;
     border-color: var(--white);
-    color: var(--black-grey);
+    color: var(--white);
     width: 280px;
     border-radius: 1rem;
     cursor: default;
@@ -192,7 +193,7 @@ h3{
     margin: auto;
 }
 .about-me-intro{
-    width: 580px;
+    width: 540px;
     height: auto;
     /*background-image: linear-gradient(var(--light-purple) 20%, var(--black-grey) 100%);*/
     margin:  4rem auto 0 auto;
@@ -203,6 +204,7 @@ h3{
     border-color: var(--white);
     border-width: 2px;
     text-shadow: 1px 2px 4px var(--black-grey);
+    background-image: radial-gradient(var(--yellow) 30%, var(--light-purple));
 }
 .about-me-skills{
     margin:  0 auto 4rem auto;
@@ -329,7 +331,8 @@ h3{
     border-top-style: solid;
     border-width: 2px;
     border-color: var(--white);
-    background-color: var(--off-white);
+    background-image: linear-gradient(var(--yellow), var(--light-purple));
+
 }
 .footer-text{
     display: flex;
@@ -338,5 +341,6 @@ h3{
 }
 footer h1, h2{
     font-weight: normal;
-    color: var(--black-grey)
+    color: var(--white);
+    text-shadow: 1px 2px 4px var(--black-grey);
 }
