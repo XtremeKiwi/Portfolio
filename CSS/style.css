@@ -12,6 +12,7 @@
 
 body{
     background-color: var(--black-grey);
+    letter-spacing: 1px;
 }
 *{
     color: #FFFFFF;
@@ -188,14 +189,13 @@ h3{
     margin: auto;
 }
 .about-me-intro{
-    width: 640px;
+    width: 580px;
     height: auto;
     background-color: var(--light-grey);
     margin:  4rem auto 0 auto;
     text-align: center;
-    justify-content: center;
     padding: 2rem;
-    border-radius: 16px 16px 0 0;
+    border-radius: 1rem 1rem 0 0;
     border-style: solid solid none solid;
     border-color: var(--white);
     border-width: 2px;
@@ -206,7 +206,7 @@ h3{
     width: 900px;
     height: auto;
     background-color: var(--black-grey);
-    border-radius: 4px;
+    border-radius: 32rem 1rem 1rem 32rem;
     border-style: solid;
     border-width: 2px;
     border-color: var(--white);
@@ -214,6 +214,10 @@ h3{
     justify-content: stretch;
     gap: 2rem;
     padding: 2rem 2rem;
+}
+.about-me-image-container{
+    align-items: center;
+    display: grid;
 }
 .about-me-image{
     display: flex;
@@ -223,7 +227,7 @@ h3{
     object-fit: cover;
     border-radius: 32rem;
     border-style: solid;
-    border-width: 4px;
+    border-width: 2px;
 }
 .about-me-skill-example{
     line-height: 2rem;
@@ -295,7 +299,7 @@ h3{
     border-style: solid;
     border-color: var(--white);
     border-width: 2px;
-    border-radius: 4px;
+    border-radius: 1rem;
     background-color: var(--black-grey);
 }
 .fact-list-items{
