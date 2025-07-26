@@ -88,6 +88,13 @@
     .cv-wrapper{
         width:100%;
     }
+    .cv-section-title-role-date{
+        display: block;
+        align-content: center;
+    }
+    .cv-section-date{
+        padding: 0 1rem 1rem 1rem;
+    }
 }
 
 
@@ -104,6 +111,11 @@
     .about-me-image{
         width: 200px;
         height: 200px;
+    }
+
+    /* CV */
+    .cv-section-title-date{
+        display: block;
     }
 
     /*  SoME links */
