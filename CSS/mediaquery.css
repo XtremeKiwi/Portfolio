@@ -91,4 +91,9 @@
         width: 240px;
         font-size: 0.8rem;
     }
+
+    /*  SoME links */
+    .SoMe-container{
+        gap: 10%;
+    }
 }
