@@ -17,7 +17,7 @@ body{
 }
 *{
     color: #FFFFFF;
-    font-family: "Orbitron";
+    font-family: "Orbitron", "sans-serif";
     margin: 0;
     padding: 0;
     text-decoration: none;
@@ -311,6 +311,12 @@ h3{
 }
 .cv-section-title-role p{
     color: var(--black-grey);
+    background-color: var(--off-white);
+    width: 200px;
+    border-radius: 32rem;
+    text-align: center;
+    margin: 2px;
+    box-shadow: 2px 2px 4px var(--black-grey);
 }
 .cv-section-date{
     justify-content: space-between;
@@ -346,7 +352,7 @@ h3{
 
 }
 .fact-wrapper{
-    width: 380px;
+    width: 400px;
     padding: 2rem 0 0 0;
 }
 .fact-wrapper h2{
