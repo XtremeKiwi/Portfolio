@@ -214,23 +214,23 @@ h3{
     background-color: var(--black-grey);
     background-image: url("../img/gplay.png");
     box-shadow: 8px 8px 16px var(--light-purple);
-
-
     border-radius: 32rem 1rem 1rem 32rem;
     border-style: solid;
     border-width: 2px;
     border-color: var(--white);
-    display: flex;
-    justify-content: stretch;
+    display: grid;
+    grid-template-areas:
+            "image adobe threeD programming other";
     gap: 2rem;
     padding: 2rem 2rem;
+    justify-content: center;
 }
 .about-me-image-container{
     align-items: center;
     display: flex;
 }
 .about-me-image{
-    display: flex;
+
     background-color: #555555;
     height: 256px;
     width: 256px;
@@ -238,13 +238,30 @@ h3{
     border-radius: 32rem;
     border-style: solid;
     border-width: 2px;
+    grid-area: image;
+    justify-content: center;
+}
+.image{
+    grid-area: image;
+}
+.adobe{
+    grid-area: adobe;
+}
+.threeD{
+    grid-area: threeD;
+}
+.programming{
+    grid-area: programming;
+}
+.other{
+    grid-area: other;
 }
 .about-me-skill-example{
     line-height: 2rem;
     width: 100%;
 }
 .about-me-skill-example h3{
-    padding-bottom: 1rem;
+    padding-top: 1rem
 }
 .about-me-skill-example ul{
     list-style: circle;
