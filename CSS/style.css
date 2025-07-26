@@ -70,7 +70,7 @@ h3{
 .contact-info{
     width:280px;
     margin: auto;
-
+    text-shadow: 1px 1px 2px var(--black-grey);
 }
 .contact-info:hover .contact-tooltip{
     visibility: visible;
@@ -102,39 +102,31 @@ h3{
     height: 100%;
     justify-content: center;
 }
+.portfolio-wrapper h3{
+    background-color: var(--off-white);
+    background: radial-gradient(var(--teal) , var(--light-purple));
+    display: flex;
+    text-shadow: 1px 1px 2px var(--black-grey);
+    justify-content: center;
+    width: 200px;
+    margin: auto;
+    border-radius: 32rem;
+    /*border-style: solid;*/
+    /*border-width: 2px;*/
+    /*border-color: var(--white);*/
+    padding: 2px;
+}
 .UI-webdev{
     grid-area: area1;
-}
-.UI-webdev h3{
-    position: relative;
-    left: 16px;
-    color: var(--white);
 }
 .threedee{
     grid-area: area2;
 }
-.threedee h3{
-    position: relative;
-    right: 16px;
-    text-align: right;
-    color: var(--white);
-}
 .graphic-design{
     grid-area: area3;
 }
-.graphic-design h3{
-    position: relative;
-    left: 16px;
-    color: var(--white);
-}
 .concept-art{
     grid-area: area4;
-}
-.concept-art h3{
-    position: relative;
-    right: 16px;
-    text-align: right;
-    color: var(--white);
 }
 .portfolio-piece-1{
     width: 360px;
