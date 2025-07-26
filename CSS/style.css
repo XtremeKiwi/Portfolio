@@ -1,7 +1,7 @@
 :root{
     --dark-purple: #190E1C;
     --light-purple: #C069D6;
-    --yellow: #17B890;
+    --teal: #17B890;
 
     --white: #FFFFFF;
     --off-white: #D9D9D9;
@@ -41,7 +41,7 @@ h3{
 
 }
 .marquee-info{
-    background-image: radial-gradient(var(--yellow) 30%, var(--light-purple));
+    background-image: radial-gradient(var(--teal) 30%, var(--light-purple));
     padding: 1rem 0;
     border-style: solid;
     border-width: 2px;
@@ -70,6 +70,7 @@ h3{
 .contact-info{
     width:280px;
     margin: auto;
+
 }
 .contact-info:hover .contact-tooltip{
     visibility: visible;
@@ -88,7 +89,7 @@ h3{
     border-radius: 0 0 8px 8px;
     visibility: hidden;
     gap: 8px;
-    background-color: var(--black-grey)
+    background-color: var(--black-grey);
 }
 
 .portfolio-piece-container{
@@ -153,7 +154,7 @@ h3{
     transform: scale(112%);
     transition-timing-function: ease-out;
     border-color: var(--light-purple);
-    box-shadow: 0 8px 16px var(--light-purple);
+    box-shadow: 0 0 32px var(--light-purple);
 
 }
 .portfolio-image{
@@ -204,7 +205,7 @@ h3{
     border-color: var(--white);
     border-width: 2px;
     text-shadow: 1px 2px 4px var(--black-grey);
-    background-image: radial-gradient(var(--yellow) 30%, var(--light-purple));
+    background-image: radial-gradient(var(--teal) 30%, var(--light-purple));
 }
 .about-me-skills{
     margin:  0 auto 4rem auto;
@@ -226,7 +227,7 @@ h3{
 }
 .about-me-image-container{
     align-items: center;
-    display: grid;
+    display: flex;
 }
 .about-me-image{
     display: flex;
@@ -326,12 +327,35 @@ h3{
     list-style: circle;
 }
 
+/* SoMe */
+.SoMe-container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 2rem 2rem;
+    gap: 4rem;
+    border-top-style: solid;
+    border-width: 2px;
+    border-color: var(--white);
+}
+.SoMe-container img{
+    width: 64px;
+    background: linear-gradient(var(--teal), var(--light-purple));
+    border-radius: 32px;
+}
+.SoMe-links:hover img{
+    transform: scale(112%);
+    transition: 0.2s;
+    transition-timing-function: ease-out;
+    box-shadow: 0 0 16px var(--light-purple);
+}
+
 /* footer */
 .footer{
     border-top-style: solid;
     border-width: 2px;
     border-color: var(--white);
-    background-image: linear-gradient(var(--yellow), var(--light-purple));
+    background-image: linear-gradient(var(--teal), var(--light-purple));
 
 }
 .footer-text{

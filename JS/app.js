@@ -1,0 +1,18 @@
+// mediaquery with javascript //
+
+const x = window.matchMedia("(max-width: 340px)")
+
+function mediaqueryHeaderName() {
+    if (x.matches){
+        document.querySelector(".header-name").innerHTML = "KIWI-MAI"
+    } else {
+        document.querySelector(".header-name").innerHTML = "{ KIWI-MAI }"
+
+    }
+}
+
+mediaqueryHeaderName()
+
+x.addEventListener("change", function(){
+    mediaqueryHeaderName();
+});

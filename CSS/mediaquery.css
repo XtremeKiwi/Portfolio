@@ -45,9 +45,15 @@
     .about-me-skills{
         width: 80%;
         border-radius: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+
+
     }
     .about-me-skill-example{
         font-size: 0.8rem;
+        width: 50%
+
     }
     .fact-container{
         width: 100%
