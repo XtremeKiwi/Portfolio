@@ -37,7 +37,7 @@ h3{
     background-color: var(--black-grey);
         margin:auto;
     overflow: hidden;
-    background-image: url("../img/white-diamond.png");
+    background-image: url("../img/batthern.png");
 
 }
 .marquee-info{
@@ -103,17 +103,11 @@ h3{
     justify-content: center;
 }
 .portfolio-wrapper h3{
-    background-color: var(--off-white);
-    background: radial-gradient(var(--teal) , var(--light-purple));
     display: flex;
     text-shadow: 1px 1px 2px var(--black-grey);
     justify-content: center;
     width: 200px;
     margin: auto;
-    border-radius: 32rem;
-    /*border-style: solid;*/
-    /*border-width: 2px;*/
-    /*border-color: var(--white);*/
     padding: 2px;
 }
 .UI-webdev{
@@ -128,7 +122,7 @@ h3{
 .concept-art{
     grid-area: area4;
 }
-.portfolio-piece-1{
+.portfolio-piece{
     width: 360px;
     height: 128px;
     background-color: black;
@@ -142,8 +136,8 @@ h3{
     transition: 0.2s;
     overflow: hidden;
 }
-.portfolio-piece-1:hover{
-    transform: scale(112%);
+.portfolio-piece:hover{
+    transform: scale(110%);
     transition-timing-function: ease-out;
     border-color: var(--light-purple);
     box-shadow: 0 0 32px var(--light-purple);
@@ -162,7 +156,7 @@ h3{
 .portfolio-wrapper{
     padding-top: 16px;
 }
-.portfolio-piece-1 p{
+.portfolio-piece p{
     position: relative;
     bottom: 2rem;
     right: 1rem;
@@ -334,7 +328,7 @@ h3{
 .cv-and-fact-background{
     width: 100%;
     margin: auto;
-    background-image: url("../img/white-diamond.png");
+    background-image: url("../img/batthern.png");
 }
  /* facts */
 .fact-container{
