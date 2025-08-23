@@ -3,6 +3,7 @@
     --light-purple: #C069D6;
     --teal: #17B890;
 
+
     --white: #FFFFFF;
     --off-white: #D9D9D9;
     --light-grey: #555555;
@@ -106,7 +107,7 @@ h3{
     display: flex;
     text-shadow: 1px 1px 2px var(--black-grey);
     justify-content: center;
-    width: 200px;
+    width: 300px;
     margin: auto;
     padding: 2px;
 }

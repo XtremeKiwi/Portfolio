@@ -1,37 +1,37 @@
 //UI %% Webdev //
 const portfolioPiece1 = [{
-        name: 'webdev1',
-        img: 'img/Test-image.png',
+        name: 'Juncle (eksamen)',
+        img: 'img/Jungle logo.png',
         alt: 'Dysphoria design logo',
         href: 'https://mastodon.social/home'
     }]
 
 // 3D //
 const portfolioPiece2 = [{
-    name: '3D!',
-    img: 'img/Test-image.png',
+    name: 'Svampen Bob',
+    img: 'img/Svampebob_render_final_1.png',
     alt: 'Dysphoria design logo',
     href: '#'
 }]
 
-//Graphic Design//
+//Fysiske produkter//
 const portfolioPiece3 = [{
-    name: 'Graphic Design!',
-    img: 'img/Test-image.png',
-    alt: 'Dysphoria design logo',
-    href: '#'
-}]
-
-//Concept art
-const portfolioPiece4 = [{
-    name: 'Concept art!',
-    img: 'img/Test-image.png',
+    name: 'Hjemme Dekoration',
+    img: 'img/Admech.webp',
     alt: 'Dysphoria design logo',
     href: '#'
 },
     {
-        name: 'Concept art!',
-        img: 'img/Test-image.png',
+        name: 'T-shirt',
+        img: 'img/Admech.webp',
         alt: 'Dysphoria design logo',
         href: '#'
     }]
+
+//Concept art
+const portfolioPiece4 = [{
+    name: 'Dysphoria Miniatures',
+    img: 'img/Daemon Princess of Slaanesh.jpg',
+    alt: 'Dysphoria design logo',
+    href: '#'
+}]

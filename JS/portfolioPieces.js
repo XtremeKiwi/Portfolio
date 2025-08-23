@@ -1,6 +1,4 @@
-
 let pieceHTML1 = '';
-
 portfolioPiece1.forEach((piece) => {
     pieceHTML1  += `
     <a href="${piece.href}">
@@ -13,7 +11,6 @@ portfolioPiece1.forEach((piece) => {
 })
 
 let pieceHTML2 = '';
-
 portfolioPiece2.forEach((piece) => {
     pieceHTML2  += `
     <a href="${piece.href}">
@@ -26,7 +23,6 @@ portfolioPiece2.forEach((piece) => {
 })
 
 let pieceHTML3 = '';
-
 portfolioPiece3.forEach((piece) => {
     pieceHTML3  += `
     <a href="${piece.href}">
@@ -40,7 +36,6 @@ portfolioPiece3.forEach((piece) => {
 
 
 let pieceHTML4 = '';
-
 portfolioPiece4.forEach((piece) => {
     pieceHTML4  += `
     <a href="${piece.href}">
