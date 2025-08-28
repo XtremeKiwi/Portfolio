@@ -42,7 +42,8 @@ h3{
 
 }
 .marquee-info{
-    background-image: radial-gradient(var(--teal) 30%, var(--light-purple));
+    background-image:url("../img/gplay.png");
+    background-color: var(--black-grey);
     padding: 1rem 0;
     border-style: solid;
     border-width: 2px;
@@ -51,6 +52,7 @@ h3{
     width: 280px;
     border-radius: 1rem;
     cursor: default;
+    opacity: 100%;
 
 }
 .header{
@@ -60,6 +62,7 @@ h3{
     height: auto;
     display: block;
     cursor: default;
+    justify-content: space-evenly;
     /*background-image: linear-gradient(var(--light-purple) 20%, var(--black-grey) 100%);*/
 }
 .header h1{
@@ -129,7 +132,7 @@ h3{
     background-color: black;
     border-style: solid;
     border-width: 2px;
-    border-radius: 2rem;
+    border-radius: 2rem 2rem 2rem 2rem;
     border-color: var(--white);
     margin: 16px;
     text-align: right;
@@ -138,21 +141,21 @@ h3{
     overflow: hidden;
 }
 .portfolio-piece:hover{
-    transform: scale(110%);
+    transform: scale(105%);
     transition-timing-function: ease-out;
-    border-color: var(--light-purple);
-    box-shadow: 0 0 32px var(--light-purple);
-
+    border-color: var(--black-grey);
+    box-shadow: 0 0 12px 4px var(--light-purple);
 }
 .portfolio-image{
     object-fit: cover;
     width: 100%;
     height: 100%;
-    opacity: 75%;
+    opacity: 90%;
     transition: 0.2s;
 }
 .portfolio-image:hover{
     opacity: 100%;
+    transform: scale(110%);
 }
 .portfolio-wrapper{
     padding-top: 16px;
@@ -161,9 +164,9 @@ h3{
     position: relative;
     bottom: 2rem;
     right: 1rem;
-    text-shadow: 2px 2px 4px var(--dark-purple);
+    text-shadow: 0 0 4px var(--dark-purple);
     pointer-events: none;
- }
+}
 
 /* about me */
 
@@ -192,7 +195,8 @@ h3{
     border-color: var(--white);
     border-width: 2px;
     text-shadow: 1px 2px 4px var(--black-grey);
-    background-image: radial-gradient(var(--teal) 30%, var(--light-purple));
+    background-image:url("../img/batthern.png");
+    background-color: var(--black-grey);
 }
 .about-me-skills{
     margin:  0 auto 4rem auto;
@@ -292,6 +296,7 @@ h3{
     justify-content: space-between;
     background-color: var(--light-grey);
     align-items: center;
+    background-image:url("../img/gplay.png");
 }
 .cv-section-title-role{
     padding: 1rem;
@@ -329,7 +334,7 @@ h3{
 .cv-and-fact-background{
     width: 100%;
     margin: auto;
-    background-image: url("../img/batthern.png");
+    /*background-image: url("../img/batthern.png");*/
 }
  /* facts */
 .fact-container{
@@ -392,6 +397,10 @@ h3{
 }
 
 /* footer */
+.marquee-footer{
+    background-image:url("../img/gplay.png");
+}
+
 .footer{
     border-top-style: solid;
     border-width: 2px;

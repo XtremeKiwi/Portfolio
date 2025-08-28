@@ -105,6 +105,7 @@
     .portfolio-piece{
         width: 240px;
         font-size: 0.8rem;
+        margin:  1rem auto;
     }
 
     /* about me */
