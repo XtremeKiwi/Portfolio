@@ -39,7 +39,6 @@ h3{
         margin:auto;
     overflow: hidden;
     background-image: url("../img/batthern.png");
-
 }
 .marquee-info{
     background-image:url("../img/gplay.png");
@@ -51,9 +50,15 @@ h3{
     color: var(--white);
     width: 280px;
     border-radius: 1rem;
-    cursor: default;
+    cursor: pointer;
     opacity: 100%;
 
+}
+.marquee-info:hover{
+    background-color: var(--dark-grey);
+    transition: 0.2s;
+    transform: scale(105%);
+    box-shadow: 0 0 12px 4px var(--light-purple);
 }
 .header{
     text-align: center;
@@ -72,18 +77,21 @@ h3{
     text-shadow: 1px 2px 4px var(--black-grey);
 }
 .contact-info{
-    width:280px;
     margin: auto;
     text-shadow: 1px 1px 2px var(--black-grey);
 }
 .contact-info:hover .contact-tooltip{
     visibility: visible;
 }
+.contact-tooltip:hover{
+    background-color: var(--dark-grey);
+
+}
 .contact-tooltip{
     display: flex;
     flex-direction: column;
     position: absolute;
-    margin-inline: auto;
+    margin: auto;
     width: fit-content;
     left: 0;
     right: 0;
@@ -164,7 +172,7 @@ h3{
     position: relative;
     bottom: 2rem;
     right: 1rem;
-    text-shadow: 0 0 4px var(--dark-purple);
+    text-shadow: 2px 2px 2px  var(--black-grey);
     pointer-events: none;
 }
 
@@ -370,6 +378,41 @@ h3{
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
     list-style: circle;
+}
+
+/* other experience */
+.other-experience-container{
+    width: 100%;
+    height: auto;
+
+}
+.other-experience-wrapper{
+    width: 720px;
+    margin:  auto;
+}
+.other-experience-wrapper h2{
+    margin-bottom: 1rem;
+}
+.other-experience-content{
+    background-color: var(--dark-grey);
+    margin:  0 auto 2rem auto;
+    border-width: 2px;
+    border-radius: 4px;
+    border-style: solid solid none solid;
+    border-color: var(--white);
+    box-shadow: 8px 8px 16px var(--light-purple);
+
+}
+.other-experience-text{
+    padding: 1rem;
+    background-image: url("../img/gplay.png");
+    background-color: var(--light-grey);
+
+}
+.other-experience-description{
+    padding: 1rem;
+    border-bottom-style: solid;
+    border-width: 2px;
 }
 
 /* SoMe */

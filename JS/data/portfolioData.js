@@ -1,7 +1,7 @@
 //UI %% Webdev //
 const portfolioPiece1 = [{
         name: 'Juncle (eksamen)',
-        img: 'img/Jungle logo.png',
+        img: 'img/caution-tape-set-of-yellow-warning-ribbons-abstract-warning-lines-for-police-accident-under-construction-danger-tape-collection-free-vector-1339982310.jpg',
         alt: 'Dysphoria design logo',
         href: 'portfolioPiecesDir/portfolioPieceTemplate.html'
     }]
@@ -34,17 +34,23 @@ const portfolioPiece2 = [{
 
 //Fysiske produkter//
 const portfolioPiece3 = [{
-    name: 'Hjemme Dekoration',
-    img: 'img/Admech.webp',
-    alt: 'Dysphoria design logo',
-    href: '#'
+    name: 'Hjemme Dekoration og Smykker',
+    img: 'img/portfolioImgs/homeDecoAndJewelry/Fauno_Cheshire.webp',
+    alt: 'Hjemme Dekoration',
+    href: 'portfolioPiecesDir/hjemmeDecoration.html'
+    },
+    {
+    name: 'Dysphoria Miniatures (STLs)',
+    img: 'img/portfolioImgs/dysphoriaMiniaturesSTLs/Daemonette1.webp',
+    alt: 'Dysphoria Miniatures (STL)',
+    href: 'portfolioPiecesDir/dysphoriaMiniaturesSTLs.html'
     },
     {
     name: 'T-shirt',
-    img: 'img/Admech.webp',
+    img: 'img/caution-tape-set-of-yellow-warning-ribbons-abstract-warning-lines-for-police-accident-under-construction-danger-tape-collection-free-vector-1339982310.jpg',
     alt: 'Dysphoria design logo',
     href: '#'
-    }]
+}]
 
 //Concept art
 const portfolioPiece4 = [{

@@ -25,6 +25,10 @@
         width: 90%;
         margin: auto;
     }
+    .other-experience-wrapper{
+        width: 90%;
+        margin: auto
+    }
 }
 
 @media screen and (max-width: 980px ){
