@@ -2,13 +2,13 @@ const workExperienceData =
     [{
     companyName: "MakerSpace Zealand",
     jobTitle: "Studiemedhjælper",
-    date: "Nov 2024 - present",
+    date: "Nov 2024 - I dag",
     jobDescription: "Hjælpe medstuderende med deres projekter, f.eks. 3D print, laser cutting, tøj design og mere. "
     },
     {
     companyName: "Dysphoria Designs",
     jobTitle: "",
-    date: "Nov 2023 - present",
+    date: "Nov 2023 - I dag",
     jobDescription: "Mit eget hobby firma hvor jeg designer og producere diverse små gadgets i form af smykker, \n" +
                     "hjemme-dekoration og miniature, der sælges enten som fysiske\n" +
                     "produkter eller STL filer."

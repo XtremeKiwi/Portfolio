@@ -32,6 +32,14 @@
 }
 
 @media screen and (max-width: 980px ){
+    /* cv download link */
+    .filler{
+        width: 0
+    }
+    .header{
+        display: block;
+    }
+
     /* portfolio piece top */
     .portfolio-piece{
     width: 360px;

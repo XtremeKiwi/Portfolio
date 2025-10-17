@@ -1,7 +1,7 @@
 //UI %% Webdev //
 const portfolioPiece1 = [{
         name: 'Juncle (eksamen)',
-        img: 'img/caution-tape-set-of-yellow-warning-ribbons-abstract-warning-lines-for-police-accident-under-construction-danger-tape-collection-free-vector-1339982310.jpg',
+        img: 'img/under-construction.webp',
         alt: 'Dysphoria design logo',
         href: 'portfolioPiecesDir/portfolioPieceTemplate.html'
     }]
@@ -47,7 +47,7 @@ const portfolioPiece3 = [{
     },
     {
     name: 'T-shirt',
-    img: 'img/caution-tape-set-of-yellow-warning-ribbons-abstract-warning-lines-for-police-accident-under-construction-danger-tape-collection-free-vector-1339982310.jpg',
+    img: 'img/under-construction.webp',
     alt: 'Dysphoria design logo',
     href: '#'
 }]

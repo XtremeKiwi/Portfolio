@@ -65,7 +65,7 @@ h3{
     width: 100%;
     margin: auto;
     height: auto;
-    display: block;
+    display: flex;
     cursor: default;
     justify-content: space-evenly;
     /*background-image: linear-gradient(var(--light-purple) 20%, var(--black-grey) 100%);*/
@@ -75,6 +75,12 @@ h3{
     font-weight: normal;
     color: var(--white);
     text-shadow: 1px 2px 4px var(--black-grey);
+}
+.filler{
+    width: 134.033px
+}
+.title-and-contact{
+    display: block;
 }
 .contact-info{
     margin: auto;
@@ -102,6 +108,28 @@ h3{
     visibility: hidden;
     gap: 8px;
     background-color: var(--black-grey);
+}
+.cv-download{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+}
+.downloads{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background: linear-gradient(var(--teal), var(--light-purple));
+    border-radius: 32px;
+    border-top-style: solid;
+    border-width: 2px;
+    width: 64px;
+}
+.downloads:hover{
+    transform: scale(112%);
+    transition: 0.2s;
+    transition-timing-function: ease-out;
+    box-shadow: 0 0 16px var(--light-purple);
 }
 
 .portfolio-piece-container{
@@ -388,13 +416,13 @@ h3{
 }
 .other-experience-wrapper{
     width: 720px;
-    margin:  auto;
+    margin:  0 auto 4rem auto;
 }
 .other-experience-wrapper h2{
     margin-bottom: 1rem;
 }
 .other-experience-content{
-    background-color: var(--dark-grey);
+    background-color: var(--grey);
     margin:  0 auto 2rem auto;
     border-width: 2px;
     border-radius: 4px;
