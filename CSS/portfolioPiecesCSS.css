@@ -12,14 +12,6 @@
     --black-grey: #1E1E1E;
 }
 
-@media screen and (max-width: 980px){
-    #header-portfolio{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
-}
-
 
 body{
     background-color: var(--black-grey);
@@ -115,7 +107,7 @@ header{
     border-width: 2px 0;
 }
 .image-container-tall{
-    width: 40%;
+    /*width: 40%;*/
 }
 .image-container video{
     object-fit: cover;
@@ -148,3 +140,17 @@ footer h1, h2{
     color: var(--white);
     text-shadow: 1px 2px 4px var(--black-grey);
 }
+
+@media screen and (max-width: 980px){
+    #header-portfolio{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 980px){
+    .image-container-tall{
+        width: 40%;
+    }
+}
+
