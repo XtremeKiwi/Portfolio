@@ -1,9 +1,9 @@
 //UI %% Webdev //
 const portfolioPiece1 = [{
-        name: 'Juncle (eksamen)',
-        img: 'img/under-construction.webp',
-        alt: 'Dysphoria design logo',
-        href: 'portfolioPiecesDir/portfolioPieceTemplate.html'
+        name: 'Zealand Studiestart',
+        img: 'img/portfolioImgs/zealandStudiestart/Zealand Studiestart logo 3.png',
+        alt: 'Zealand Studiestart',
+        href: 'portfolioPiecesDir/zealandStudiestart.html'
     }]
 
 // 3D //

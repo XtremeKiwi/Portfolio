@@ -68,6 +68,7 @@ h3{
     display: flex;
     cursor: default;
     justify-content: space-evenly;
+    max-width: 1360px;
     /*background-image: linear-gradient(var(--light-purple) 20%, var(--black-grey) 100%);*/
 }
 .header h1{
