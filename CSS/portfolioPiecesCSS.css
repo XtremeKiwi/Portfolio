@@ -12,6 +12,15 @@
     --black-grey: #1E1E1E;
 }
 
+@media screen and (max-width: 980px){
+    #header-portfolio{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+
 body{
     background-color: var(--black-grey);
     letter-spacing: 1px;
