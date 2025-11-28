@@ -1,9 +1,14 @@
 //UI %% Webdev //
 const portfolioPiece1 = [{
-        name: 'Zealand Studiestart',
-        img: 'img/portfolioImgs/zealandStudiestart/Zealand Studiestart logo 3.png',
-        alt: 'Zealand Studiestart',
-        href: 'portfolioPiecesDir/zealandStudiestart.html'
+    name: 'Fjordenes bådebyggeri',
+    img: 'img/portfolioImgs/fjordenesBådebyggeri/Fjordenes bådebyggeri banner 2.png',
+    alt: 'Zealand Studiestart',
+    href: 'portfolioPiecesDir/fjordenesBådebyggeri.html'
+    },{
+    name: 'Zealand Studiestart',
+    img: 'img/portfolioImgs/zealandStudiestart/Zealand Studiestart logo 3.png',
+    alt: 'Zealand Studiestart',
+    href: 'portfolioPiecesDir/zealandStudiestart.html'
     }]
 
 // 3D //
