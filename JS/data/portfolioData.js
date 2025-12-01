@@ -1,8 +1,13 @@
 //UI %% Webdev //
 const portfolioPiece1 = [{
+    name: 'GradeAid',
+    img: 'img/portfolioImgs/gradeAid/GradeAid thumbnail 6.png',
+    alt: 'GradeAid',
+    href: 'portfolioPiecesDir/gradeAid.html'
+    },{
     name: 'Fjordenes bådebyggeri',
     img: 'img/portfolioImgs/fjordenesBådebyggeri/Fjordenes bådebyggeri banner 2.png',
-    alt: 'Zealand Studiestart',
+    alt: 'Fjordenes bådebyggeri',
     href: 'portfolioPiecesDir/fjordenesBådebyggeri.html'
     },{
     name: 'Zealand Studiestart',
